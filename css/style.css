@@ -1,0 +1,60 @@
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'TossProductSans',-apple-system,BlinkMacSystemFont,Lato,Roboto,'Segoe UI','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
+}
+
+
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    /* margin: 10px; */
+    background-color: white;
+}
+
+.nav_logo {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+.nav_logo .logo {
+    width: 40px;
+    margin-right: 10px;
+    /* height: 20px; */
+}
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    margin-right: 20px;
+}
+.navbar_menu li { 
+    padding: 10px 20px;
+}
+
+.navbar_menu li:hover {
+    background-color: rgb(231, 231, 231);
+    border-radius: 12px;
+}
